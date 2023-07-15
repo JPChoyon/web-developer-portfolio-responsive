@@ -238,6 +238,23 @@ footer {
 }
 /* mobile devices */
 @media screen and (max-width: 576px) {
+  /* about section  */
+  .aboutcont {
+    border-radius: 10px;
+    background: #fff8f3;
+    width: 100%;
+  }
+  .aboutpera {
+    padding: 0;
+  }
+  .aboutinfocon {
+    flex-direction: column;
+  }
+  .aboutinfo {
+    text-align: center;
+    padding: 7px;
+    margin-left: 0px;
+  }
   /* what i do section  */
   .doing {
     width: 100%;
@@ -283,9 +300,21 @@ footer {
   .inputaria {
     width: 85%;
   }
+  .footer-btn {
+    width: 150px;
+    display: block;
+    margin: auto;
+  }
 }
 /* tablet devices */
 @media screen and (min-width: 576px) and (max-width: 960px) {
+  /* about container  */
+  .aboutcont {
+    width: 100%;
+  }
+  .aboutpera {
+    padding: 0;
+  }
   /* what i do section  */
   .doing {
     width: 100%;
