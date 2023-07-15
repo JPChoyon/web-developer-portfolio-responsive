@@ -232,3 +232,41 @@ footer {
   margin: 30px 0px;
   text-align: left;
 }
+/* responsive style  */
+.hide {
+  display: none;
+}
+/* mobile devices */
+@media screen and (max-width: 576px) {
+  /* resume section  */
+  .resumecon {
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+  }
+
+  /* footer section  */
+  footer {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .inputaria {
+    width: 85%;
+  }
+}
+/* tablet devices */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  /* footer section  */
+  footer {
+    padding: 20px;
+    gap: 5px;
+  }
+  .inputaria {
+    width: 85%;
+  }
+  .footerleftcon {
+    width: 60%;
+    padding: 37px;
+    gap: 15px;
+  }
+}
