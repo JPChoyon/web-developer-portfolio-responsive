@@ -238,6 +238,23 @@ footer {
 }
 /* mobile devices */
 @media screen and (max-width: 576px) {
+  /* shared style  */
+  .primarybtn {
+    padding: 10px 20px;
+  }
+  /* header section start from here  */
+  nav,
+  .banner {
+    flex-direction: column;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 0;
+  }
+  .banner .profile-pic {
+    width: 100%;
+    height: auto;
+  }
   /* about section  */
   .aboutcont {
     border-radius: 10px;
@@ -308,6 +325,11 @@ footer {
 }
 /* tablet devices */
 @media screen and (min-width: 576px) and (max-width: 960px) {
+  /* header section  start  */
+  nav,
+  .banner {
+    flex-direction: column;
+  }
   /* about container  */
   .aboutcont {
     width: 100%;
