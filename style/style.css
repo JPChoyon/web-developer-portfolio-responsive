@@ -244,11 +244,22 @@ footer {
     width: 100%;
     padding: 5px;
   }
+  .columtitle,
+  .columsubtitle,
+  .subtitledes {
+    text-align: center;
+  }
 
   /* footer section  */
   footer {
     flex-direction: column;
     padding: 10px;
+  }
+  .footerleftcon,
+  .lefttitle,
+  .leftdes,
+  .righttitle {
+    text-align: center;
   }
   .inputaria {
     width: 85%;
@@ -256,6 +267,18 @@ footer {
 }
 /* tablet devices */
 @media screen and (min-width: 576px) and (max-width: 960px) {
+  /* resume section  */
+  .resumecon {
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+  }
+  .columtitle,
+  .columsubtitle,
+  .subtitledes {
+    text-align: center;
+  }
+
   /* footer section  */
   footer {
     padding: 20px;
@@ -263,6 +286,12 @@ footer {
   }
   .inputaria {
     width: 85%;
+  }
+  .footerleftcon,
+  .lefttitle,
+  .leftdes,
+  .righttitle {
+    text-align: center;
   }
   .footerleftcon {
     width: 60%;
