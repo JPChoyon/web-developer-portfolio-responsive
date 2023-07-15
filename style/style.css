@@ -238,6 +238,10 @@ footer {
 }
 /* mobile devices */
 @media screen and (max-width: 576px) {
+  /* what i do section  */
+  .doing {
+    width: 100%;
+  }
   /* skill section start  */
   .skillcon {
     flex-direction: column;
@@ -282,6 +286,10 @@ footer {
 }
 /* tablet devices */
 @media screen and (min-width: 576px) and (max-width: 960px) {
+  /* what i do section  */
+  .doing {
+    width: 100%;
+  }
   /* skill section  */
   .skillcon {
     display: grid;
