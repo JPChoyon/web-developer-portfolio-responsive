@@ -238,6 +238,21 @@ footer {
 }
 /* mobile devices */
 @media screen and (max-width: 576px) {
+  /* skill section start  */
+  .skillcon {
+    flex-direction: column;
+  }
+  .skill {
+    padding: 14px 15px;
+    margin-left: 0px;
+    box-shadow: #00000026 1px 1px 10px;
+  }
+  .skilltitle,
+  .skill > img {
+    text-align: center;
+    display: block;
+    margin: auto;
+  }
   /* resume section  */
   .resumecon {
     flex-direction: column;
@@ -267,6 +282,17 @@ footer {
 }
 /* tablet devices */
 @media screen and (min-width: 576px) and (max-width: 960px) {
+  /* skill section  */
+  .skillcon {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .skill {
+    padding: 15px;
+    margin-left: 0px;
+    box-shadow: #00000026 1px 1px 10px;
+  }
+
   /* resume section  */
   .resumecon {
     flex-direction: column;
